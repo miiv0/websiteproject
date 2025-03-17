@@ -1,31 +1,72 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Roboto" , sans-serif;
     text-align: center;
-  }
-  
-  img {
-    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title1 {
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+}
+.image {
+    width: 150px;
     height: 100px;
-  }
+}
   
-  .footer {
-    position: fixed;
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
     bottom: 0;
     left: 0;
     right: 0;
     height: 52px;
-    display: flex;
     align-items: center;
     justify-content: center;
-    background: #eee;
-  }
-  
-  .container {
+    background: #1F2937;
+    color: #e5e7eb;
+}
+
+.header, .links {
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    align-items: center;
+    justify-content: space-between;
+    background: #1F2937;
+}
+
+.title {
+    font-size: 24px;
+    color: #e5e7eb;
+}
+.container {
     display: flex;
     justify-content: center;
     gap: 52px;
-  }
+}
   
-  .info {
+.info {
     max-width: 200px;
-  }
+}
+
+.group1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+

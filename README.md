@@ -1,1 +1,1 @@
-This is my first time making a front-end website with all correct margins/padding. Im making this while I am completing the Odin Project, this is one of the projects.
+This is my first time making a front-end website with all correct margins/padding. I made the theme about my trip to japan, and put it in a real life scenario where someone would want to sell you a trip planner or itinerary. Im making this while I am completing the Odin Project, this is one of the projects.

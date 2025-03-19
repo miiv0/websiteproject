@@ -90,7 +90,7 @@ body {
     justify-content: center;
     gap: 52px;
     flex-wrap: wrap;
-    padding-bottom: 80px;
+    padding: 0 10% 80px 10%;
 }
 
 a {
@@ -130,6 +130,22 @@ a {
     color: black;
     background-color: #3882f6;
     border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.button2 {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    align-items: center;
+    border-color: white;
+    cursor: pointer;
+    white-space: nowrap
 }
 
 .group1 {
@@ -160,5 +176,27 @@ a {
 
 .quotebg {
     background-color: #e5e7eb;
-    padding: 50px 13% 50px 13%;
+    padding: 100px 13% 100px 13%;
+}
+
+.container2 {
+    display: flex;
+    margin: 50px 25% 50px 25%;
+    justify-content: space-around;
+    background-color:#3882f6;
+    border-radius: 20px;
+    align-items: center;
+    padding: 2% 5% 2% 5%;
+    gap: 2%;
+}
+
+.group2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.title2 {
+    font-size: 24px;
+    font-weight: 600;
 }
